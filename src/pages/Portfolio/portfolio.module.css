@@ -1,0 +1,198 @@
+/* .header {
+    text-align: center;
+    color: #fff;
+    background: #b6b2af;
+    width: 100% ;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+  
+  .header img {
+    margin: 2rem;
+    width: 20vw;
+    height: 30vh;
+  }
+  
+  .list {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 70px 60px;
+    margin: 0 auto;
+  }
+  
+  .inputContainer {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .input {
+    background: #fff;
+    border: 0.5 solid #86837d;
+    padding: 12px 24px;
+    border-radius: 8px;
+    height: 100px;
+    width: 70%; 
+  }
+  
+  .addContainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .addTask {
+    background:#777674;
+    width: 300px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    padding: 14px;
+  }
+  
+  .removeTask {
+    background:rgb(90, 86, 86);
+    margin: 2rem;
+    border-radius: 8px;
+    border: 0;
+    padding: 14px;
+    color: #fff;
+  }
+  
+  .listItems {
+    list-style: none;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .listItems > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 0.7px solid #7e7d7d;
+    width: 60%;
+  }
+    
+  
+  .listItems li div p {
+    font-size: 1.3em;
+    color: #111;
+  }
+   */
+
+
+
+
+
+   .projectsContainer {
+    width: 100%;
+    color: #686AAC;
+    text-align: center;
+    padding-top: 6rem;
+  }
+  
+  .projectsTitle {
+    font-size: 4rem;
+  }
+  
+  .cardsContainer {
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: 1rem;
+  }
+  
+  .card {
+    width: 30%;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.2rem;
+  }
+  
+  .cardImage {
+    width: 100%;
+  }
+  
+  .cardLink {
+    background-color: #686AAC;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cardsRepoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 3rem;
+    padding: 2rem;
+  }
+  
+  .cardRepo {
+    background: #686AAC;
+    width: 20%;
+    height: 230px;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .cardRepoText {
+    color: #fff;
+  }
+  
+  .projectsInput {
+    margin-top: 40px;
+    width: 80%;
+    padding: 12px 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  @media(max-width: 765px) {
+    .cardsContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .card {
+      width: 320px;
+    }
+  
+    .cardRepo {
+      width: 3200px;
+    }
+  
+  }
